@@ -1,24 +1,37 @@
 # Change these first
-owner: grizak # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: grizak       # Your GitHub username, where this repository lives
+repo: upptime        # Your Upptime repo name
 
 sites:
   - name: Finance Tracker
     url: https://financetracker.isaksweb.xyz
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
   cname: status.isaksweb.xyz
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://raw.githubusercontent.com/grizak/upptime/master/assets/upptime-icon.svg # optional, replace with your own logo if you like
+  name: "Isak's Web Status"
+  introTitle: "Welcome to **Isak’s Web Status**"
+  introMessage: "This is the real-time status page for my websites and services. All data is powered by GitHub Actions — no server required."
   navbar:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/grizak/upptime
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Optional cosmetic theme settings
+theme:
+  primary: "#1affff"
+  success: "#28a745"
+  warning: "#ffc107"
+  danger: "#dc3545"
+
+# Optional footer
+footer: "© 2025 Isak Grönlund – All rights reserved."
+
+# Uptime checks
+interval: 5            # check every 5 minutes
+retry-interval: 2      # retry 2 minutes if failed
+max-retries: 2
+
+# Timezone for displaying times
+timezone: "Europe/Stockholm"
