@@ -35,3 +35,16 @@ max-retries: 2
 
 # Timezone for displaying times
 timezone: "Europe/Stockholm"
+
+notifications:
+  email:
+    - to: "you@yourdomain.com"      # who receives the email
+      from: "status@isaksweb.xyz"  # your Zoho email
+      subject: "[STATUS] {{site.name}} is {{status}}"
+      smtp:
+        host: "smtp.zoho.com"
+        port: 587
+        secure: false               # false for TLS, true if using port 465 SSL
+        auth:
+          user: ${{ secrets.ZOHO_EMAIL }}
+          pass: ${{ secrets.ZOHO_PASS }}
