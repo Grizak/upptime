@@ -4,18 +4,20 @@
     "url": "https://financetracker.isaksweb.xyz",
     "icon": "https://icons.duckduckgo.com/ip3/financetracker.isaksweb.xyz.ico",
     "slug": "finance-tracker",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 434,
-    "timeDay": 572,
-    "timeWeek": 485,
-    "timeMonth": 455,
-    "timeYear": 434,
-    "dailyMinutesDown": {}
+    "time": 438,
+    "timeDay": 586,
+    "timeWeek": 499,
+    "timeMonth": 460,
+    "timeYear": 438,
+    "dailyMinutesDown": {
+      "2025-10-10": 0
+    }
   },
   {
     "name": "Cloudflare DNS",
