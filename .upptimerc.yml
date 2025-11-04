@@ -3,8 +3,6 @@ owner: grizak       # Your GitHub username, where this repository lives
 repo: upptime        # Your Upptime repo name
 
 sites:
-  - name: Finance Tracker
-    url: https://financetracker.isaksweb.xyz
   - name: Cloudflare DNS
     url: 1.1.1.1
 
