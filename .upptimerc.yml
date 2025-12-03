@@ -3,8 +3,8 @@ owner: grizak       # Your GitHub username, where this repository lives
 repo: upptime        # Your Upptime repo name
 
 sites:
-  - name: Cloudflare DNS
-    url: 1.1.1.1
+  - name: Blog
+    url: https://blog.isaksweb.xyz
 
 status-website:
   cname: status.isaksweb.xyz
