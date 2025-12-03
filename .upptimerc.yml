@@ -18,6 +18,35 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/grizak/upptime
+  customFootHtml: |
+    <script>
+      document.addEventListener("DOMContentLoaded", async () => {
+        try {
+          const res = await fetch("/summary.json");
+          const data = await res.json();
+
+          for (const site of data.sites) {
+            if (!site.source) continue;
+
+            const el = document.querySelector(`[data-slug="${site.slug}"]`);
+            if (!el) continue;
+
+            const link = document.createElement("a");
+            link.href = site.source;
+            link.textContent = "Source Code";
+            link.target = "_blank";
+            link.style.marginLeft = "10px";
+            link.style.fontSize = "0.9em";
+
+            const nameEl = el.querySelector(".name") || el.querySelector("h2");
+            if (nameEl) nameEl.appendChild(link);
+          }
+        } catch (e) {
+          console.error("Failed to add source links", e);
+        }
+      });
+    </script>
+
 
 # Optional cosmetic theme settings
 theme:
