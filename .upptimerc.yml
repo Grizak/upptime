@@ -5,6 +5,7 @@ repo: upptime        # Your Upptime repo name
 sites:
   - name: Blog
     url: https://blog.isaksweb.xyz
+    source: https://github.com/Grizak/blog
 
 status-website:
   cname: status.isaksweb.xyz
