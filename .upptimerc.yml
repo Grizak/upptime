@@ -2,9 +2,6 @@
 owner: grizak       # Your GitHub username, where this repository lives
 repo: upptime        # Your Upptime repo name
 
-generator:
-  status-page: github:Grizak/status-page-for-upptime
-
 sites:
   - name: Blog
     url: https://blog.isaksweb.xyz
@@ -21,6 +18,7 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/grizak/upptime
+  generator: github:Grizak/status-page-for-upptime
 
 
 # Optional cosmetic theme settings
