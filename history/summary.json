@@ -4,17 +4,19 @@
     "url": "https://blog.isaksweb.xyz",
     "icon": "https://icons.duckduckgo.com/ip3/blog.isaksweb.xyz.ico",
     "slug": "blog",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 427,
-    "timeDay": 318,
-    "timeWeek": 427,
-    "timeMonth": 427,
-    "timeYear": 427,
-    "dailyMinutesDown": {}
+    "status": "up",
+    "uptime": "98.55%",
+    "uptimeDay": "97.00%",
+    "uptimeWeek": "98.55%",
+    "uptimeMonth": "98.55%",
+    "uptimeYear": "98.55%",
+    "time": 433,
+    "timeDay": 351,
+    "timeWeek": 433,
+    "timeMonth": 433,
+    "timeYear": 433,
+    "dailyMinutesDown": {
+      "2025-12-05": 43
+    }
   }
 ]
