@@ -24,19 +24,19 @@
     "url": "https://isaksweb.xyz",
     "icon": "https://icons.duckduckgo.com/ip3/isaksweb.xyz.ico",
     "slug": "home-page",
-    "status": "down",
-    "uptime": "95.85%",
-    "uptimeDay": "95.85%",
-    "uptimeWeek": "95.85%",
-    "uptimeMonth": "95.85%",
-    "uptimeYear": "95.85%",
-    "time": 4083,
-    "timeDay": 4083,
-    "timeWeek": 4083,
-    "timeMonth": 4083,
-    "timeYear": 4083,
+    "status": "up",
+    "uptime": "95.18%",
+    "uptimeDay": "95.18%",
+    "uptimeWeek": "95.18%",
+    "uptimeMonth": "95.18%",
+    "uptimeYear": "95.18%",
+    "time": 3568,
+    "timeDay": 3568,
+    "timeWeek": 3568,
+    "timeMonth": 3568,
+    "timeYear": 3568,
     "dailyMinutesDown": {
-      "2025-12-05": 13
+      "2025-12-05": 16
     }
   }
 ]
