@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/blog.isaksweb.xyz.ico",
     "slug": "blog",
     "status": "up",
-    "uptime": "98.87%",
+    "uptime": "98.89%",
     "uptimeDay": "97.00%",
-    "uptimeWeek": "98.87%",
-    "uptimeMonth": "98.87%",
-    "uptimeYear": "98.87%",
+    "uptimeWeek": "98.89%",
+    "uptimeMonth": "98.89%",
+    "uptimeYear": "98.89%",
     "time": 433,
     "timeDay": 383,
     "timeWeek": 433,
@@ -25,18 +25,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/isaksweb.xyz.ico",
     "slug": "home-page",
     "status": "up",
-    "uptime": "82.05%",
-    "uptimeDay": "82.05%",
-    "uptimeWeek": "82.05%",
-    "uptimeMonth": "82.05%",
-    "uptimeYear": "82.05%",
+    "uptime": "84.57%",
+    "uptimeDay": "84.57%",
+    "uptimeWeek": "84.57%",
+    "uptimeMonth": "84.57%",
+    "uptimeYear": "84.57%",
     "time": 2178,
     "timeDay": 2178,
     "timeWeek": 2178,
     "timeMonth": 2178,
     "timeYear": 2178,
     "dailyMinutesDown": {
-      "2025-12-05": 120
+      "2025-12-05": 115
     }
   }
 ]
