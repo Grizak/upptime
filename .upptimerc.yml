@@ -14,6 +14,8 @@ status-website:
   introTitle: "Welcome to **Isak’s Web Status**"
   introMessage: "This is the real-time status page for my websites and services. All data is powered by GitHub Actions — no server required."
   navbar:
+    - title: Home
+      href: https://isaksweb.xyz
     - title: Status
       href: /
     - title: GitHub
