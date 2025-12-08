@@ -18,28 +18,5 @@
     "dailyMinutesDown": {
       "2025-12-05": 43
     }
-  },
-  {
-    "name": "Home Page",
-    "url": "https://isaksweb.xyz",
-    "icon": "https://icons.duckduckgo.com/ip3/isaksweb.xyz.ico",
-    "slug": "home-page",
-    "status": "up",
-    "uptime": "74.18%",
-    "uptimeDay": "66.85%",
-    "uptimeWeek": "74.18%",
-    "uptimeMonth": "74.18%",
-    "uptimeYear": "74.18%",
-    "time": 1301,
-    "timeDay": 257,
-    "timeWeek": 1301,
-    "timeMonth": 1301,
-    "timeYear": 1301,
-    "dailyMinutesDown": {
-      "2025-12-08": 271,
-      "2025-12-07": 206,
-      "2025-12-06": 450,
-      "2025-12-05": 115
-    }
   }
 ]
