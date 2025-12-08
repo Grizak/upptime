@@ -6,9 +6,6 @@ sites:
   - name: Blog
     url: https://blog.isaksweb.xyz
     source: https://github.com/Grizak/blog
-  - name: Home Page
-    url: https://isaksweb.xyz
-    source: https://github.com/Grizak/isaksweb-home
 
 status-website:
   cname: status.isaksweb.xyz
